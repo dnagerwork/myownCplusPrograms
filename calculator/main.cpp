@@ -3,10 +3,13 @@
 #include "basic_operations.h"
 #include "shift_operations.h"
 #include "alpha_operations.h"
+#include "arrow_controls.h"
+#include "black_buttons.h"
+#include "red_buttons.h"
 
 int main(){
     /* My intention is to clone the functionality of calculator CASIO fx-82MS
-     * Shift, Alpha, (left, up, right, down), mode, on
+     * Shift, Alpha, (left, up, right, down, replay), mode, on
      * x-1/x!, nCr/nPr, Pol(/Rec( :, x3/square3
      * Ab/c/d/c, square, x2, log/10x, ln/ex e
      * (-)/A, .'''/<- B, hyp/C, sin/sin-1 D, cos/cos-1 E, tan-1/F
