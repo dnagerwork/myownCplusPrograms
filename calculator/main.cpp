@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <iostream>
+#include "basic_operations.h"
 
 int main(){
     /* My intention is to clone the functionality of calculator CASIO fx-82MS
@@ -12,5 +14,11 @@ int main(){
      * 1/s-sum, 2/s-var, 3, +, -
      * 0/Rnd, ./Ran#, exp/PI, Ans/DRG, =/%
      * */ 
+    basic_operations basicOperations;
+    std::cout << "Hello world" << std::endl;
+    std::cout << "The result of multiplation is: " << basicOperations.multiply(5,4) << std::endl;
+    std::cout << "The result of division is: " << basicOperations.divide(5,4) << std::endl;
+    std::cout << "The result of sum is: " << basicOperations.sum(5,4) << std::endl;
+    std::cout << "The result of substract is: " << basicOperations.substract(5,4) << std::endl;
     return 0;
 }
